@@ -4,7 +4,7 @@ with open("README.md", encoding="utf-8") as f:
     long_desc = f.read()
 
 setup(
-    name="blackjack-cli",
+    name="evt-blackjack",
     version="0.1.0",
     py_modules=["bj"],
     install_requires=[],
