@@ -21,10 +21,20 @@ Works right from your terminal with a simple command (bj)
 🛠 Setup
 Clone the repo, make it executable, and you're ready to play:
 
-    git clone https://github.com/your-username/Blackjack.git
-    cd Blackjack
-    chmod +x bj
-    sudo ln -s $(pwd)/bj /usr/local/bin/bj  # Optional: run from anywhere
+        git clone https://github.com/your-username/Blackjack.git
+
+bj (for macOS/Linux users)
+
+        chmod +x bj
+
+💡 Optional: Make bj a Global Command (Mac/Linux)
+Move it to your PATH:
+
+        sudo mv bj /usr/local/bin/bj
+        
+Then you can play from anywhere:
+
+        bj
 
 ▶️ Start the Game
 
