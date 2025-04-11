@@ -1,41 +1,58 @@
-🃏 A Blackjack in Your Terminal
-TerminalJack is a sleek, terminal-based Blackjack simulator and training tool built in Python. Whether you're learning the game, practicing your card counting, or just vibing with some command-line casino action, this project brings the casino to your shell — no chips required.
+# 🃏 evt-blackjack
 
-🎯 Features
-Fully interactive Blackjack game in the terminal
+## 📦 Installation
+Install via pip (works on macOS, Linux, and Windows):
+                pip install evt-blackjack
 
-Clean card visuals using ASCII art and suit symbols (♥♠♦♣)
 
-Built-in balance tracking and betting system
-
-Double down, stand, and hit mechanics
-
-Deck reshuffling based on depletion threshold
-
-Blackjack detection and proper payout logic
-
-Optimized for training and repeated play
-
-Works right from your terminal with a simple command (bj)
-
-🛠 Setup
-Clone the repo, make it executable, and you're ready to play:
-
-        git clone https://github.com/your-username/Blackjack.git
-
-bj (for macOS/Linux users)
-
-        chmod +x bj
-
-💡 Optional: Make bj a Global Command (Mac/Linux)
-Move it to your PATH:
-
-        sudo mv bj /usr/local/bin/bj
-        
-Then you can play from anywhere:
-
-        bj
-
-▶️ Start the Game
-
+## ▶️ How to Run
+🧑‍💻 Most Users (macOS & Linux):
+Just run:
+                  
     bj
+
+🎉 You’re in the game.
+
+### 🪟 Windows Users
+After installing, you might see this warning:
+
+    WARNING: The script bj.exe is installed in '...Scripts', which is not on PATH.
+
+That just means Windows doesn't know where to find the bj command yet.
+You have 2 easy options:
+
+✅ Option 1: Use the fallback command
+
+    python -m bj
+
+🛠 Option 2: Add Scripts to your PATH manually
+
+    C:\Users\your-name\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_xxx\LocalCache\local-                        packages\Python311\Scripts
+
+Add it to your system PATH:
+
+Open Start → “Environment Variables”
+
+Edit the Path variable
+
+Add a new entry for the folder path
+
+Click OK and restart your terminal
+
+Then you can run:
+                bj
+## 💡 Features
+
+Terminal-based Blackjack with suit visuals (♥♠♦♣)
+
+Full support for:
+
+Hitting / Standing / Doubling Down
+
+Blackjack detection
+
+Betting & balance tracking
+
+Reshuffling decks
+
+Great for practice or just passing time in the terminal
