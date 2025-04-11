@@ -16,18 +16,18 @@ Just run:
 ### 🪟 Windows Users
 After installing, you might see this warning:
 
-                WARNING: The script bj.exe is installed in '...Scripts', which is not on PATH.
+    WARNING: The script bj.exe is installed in '...Scripts', which is not on PATH.
 
 That just means Windows doesn't know where to find the bj command yet.
 You have 2 easy options:
 
 ✅ Option 1: Use the fallback command
 
-                python -m bj
+    python -m bj
 
 🛠 Option 2: Add Scripts to your PATH manually
 
-                C:\Users\your-name\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_xxx\LocalCache\local-                        packages\Python311\Scripts
+    C:\Users\your-name\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_xxx\LocalCache\local-                        packages\Python311\Scripts
 
 Add it to your system PATH:
 
