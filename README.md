@@ -21,11 +21,11 @@ Works right from your terminal with a simple command (bj)
 🛠 Setup
 Clone the repo, make it executable, and you're ready to play:
 
-  git clone https://github.com/your-username/TerminalJack.git
-  cd TerminalJack
-  chmod +x bj
-  sudo ln -s $(pwd)/bj /usr/local/bin/bj  # Optional: run from anywhere
+    git clone https://github.com/your-username/TerminalJack.git
+    cd TerminalJack
+    chmod +x bj
+    sudo ln -s $(pwd)/bj /usr/local/bin/bj  # Optional: run from anywhere
 
 ▶️ Start the Game
 
-  bj
+    bj
