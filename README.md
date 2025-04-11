@@ -12,8 +12,6 @@ Just run:
 
 🎉 You’re in the game.
 
-### 🧑‍💻 macOS / Linux Users
-
 ### 🪟 Windows Users
 After installing, you might see this warning:
 
