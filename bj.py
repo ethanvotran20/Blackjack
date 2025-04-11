@@ -316,7 +316,6 @@ class BlackjackGame:
             self.game_over = False
             self.player_hand = Hand()
             self.dealer_hand = Hand()
-            self.current_bet = 0  # Reset bet for new hand
                 
             self.get_bet()
             self.deal_initial_cards()
