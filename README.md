@@ -1,6 +1,6 @@
 # 🃏 evt-blackjack
 
-### 🍎 MacBook Installation Guide (via pipx)
+## 🍎 MacBook Installation Guide (via pipx)
 We recommend using pipx to install evt-blackjack — it keeps everything clean, isolated, and system-safe.
 ✅ Step 1: Install pipx (if not already installed)
 First, make sure Homebrew is installed:
@@ -37,7 +37,7 @@ Now you can simply run:
 
 ...from any terminal window and start playing 🃏♠️
 
-### 🪟 Windows Users
+## 🪟 Windows Users
 After installing, you might see this warning:
 
     WARNING: The script bj.exe is installed in '...Scripts', which is not on PATH.
