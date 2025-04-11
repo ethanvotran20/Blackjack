@@ -1,17 +1,41 @@
 # 🃏 evt-blackjack
 
-## 📦 Installation
-Install via pip (works on macOS, Linux, and Windows):
-                pip install evt-blackjack
+🍎 MacBook Installation Guide (via pipx)
+We recommend using pipx to install evt-blackjack — it keeps everything clean, isolated, and system-safe.
+✅ Step 1: Install pipx (if not already installed)
+First, make sure Homebrew is installed:
 
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-## ▶️ How to Run
-🧑‍💻 Most Users (macOS & Linux):
-Just run:
-                  
+Then install pipx and Python (if needed):
+
+    brew install pipx
+    brew install python  # if you don't already have Python 3 installed
+    pipx ensurepath
+
+✅ Step 2: Install evt-blackjack with pipx
+    
+    pipx install evt-blackjack
+
+⚠️ Step 3: Add pipx’s binary path to your shell (if needed)
+If typing bj doesn’t work after installing, you likely need to add pipx’s bin path to your PATH.
+
+🐚 For zsh users (default on macOS):
+
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+    source ~/.zshrc
+
+🐚 For bash users:
+
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bash_profile
+    source ~/.bash_profile
+
+🃏 Step 4: Run the game!
+Now you can simply run:
+
     bj
 
-🎉 You’re in the game.
+...from any terminal window and start playing 🃏♠️
 
 ### 🪟 Windows Users
 After installing, you might see this warning:
