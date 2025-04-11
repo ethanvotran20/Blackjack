@@ -8,6 +8,7 @@ Install via pip (works on macOS, Linux, and Windows):
 ## ▶️ How to Run
 🧑‍💻 Most Users (macOS & Linux):
 Just run:
+                  
     bj
 
 🎉 You’re in the game.
