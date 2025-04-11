@@ -5,7 +5,7 @@ with open("README.md", encoding="utf-8") as f:
 
 setup(
     name="evt-blackjack",
-    version="0.1.0",
+    version="0.1.1",
     py_modules=["bj"],
     install_requires=[],
     entry_points={
