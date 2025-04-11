@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open("README.md", encoding="utf-8") as f:
+    long_desc = f.read()
+
 setup(
     name="blackjack-cli",
     version="0.1.0",
@@ -10,9 +13,9 @@ setup(
             "bj = bj:main",
         ],
     },
-    author="Ethan Vo Tran",
+    author="Ethan Votran",
     description="A terminal-based Blackjack trainer",
-    long_description=open("README.md").read(),
+    long_description=long_desc,
     long_description_content_type="text/markdown",
     classifiers=[
         "Programming Language :: Python :: 3",
