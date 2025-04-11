@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import random
 from typing import List
 
@@ -367,6 +366,9 @@ class BlackjackGame:
             if play_again != 'y':
                 break
 
-if __name__ == "__main__":
+def main():
     game = BlackjackGame()
-    game.play() 
+    game.play()
+
+if __name__ == "__main__":
+    main()
